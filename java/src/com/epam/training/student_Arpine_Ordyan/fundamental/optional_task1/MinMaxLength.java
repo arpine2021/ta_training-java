@@ -5,7 +5,6 @@ public class MinMaxLength {
         int n = args.length;
         int i;
         int k=0;
-        //int j = 0;
         int l = 0;
         int max;
         int min;
@@ -23,9 +22,8 @@ public class MinMaxLength {
                 min = args[i].length();
                 l=i;}
         }
-        System.out.println(max+" "+args[k]);
-        System.out.println(min+" "+args[l]);
-
+        System.out.println(args[l]+" "+min);
+        System.out.println(args[k]+" "+max);
 
     }
 }
