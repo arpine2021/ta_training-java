@@ -10,7 +10,6 @@ public class Calc {
             sum += Integer.parseInt(args[i]);
             product *= Integer.parseInt(args[i]);
         }
-
         System.out.println("sum=" + sum);
         System.out.println("product=" + product);
     }
