@@ -7,10 +7,7 @@ public class MonthName {
         String[] months = {"January", "February", "March", "April", "May",
                 "June", "July", "August", "September", "October",
                 "November", "December"};
-        for (i = 0; i < 12; i++)
-            if (i == n) {
-                System.out.println(months[i - 1]);
-                break;
-            }
+
+                System.out.println(months[n - 1]);
     }
 }
